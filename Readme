@@ -1,0 +1,5 @@
+build_image = docker build -t app .
+run_image = docker run -dp 3000:3000 app 
+
+api_url = http://localhost:3000/api/v1/todo
+DB_URL=mongodb+srv://LahiruPrasad12:Lahiru12@cluster0.n1wciok.mongodb.net/?retryWrites=true&w=majority
